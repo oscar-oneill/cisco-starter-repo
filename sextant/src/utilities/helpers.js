@@ -1,26 +1,16 @@
-export const metrics = [
+export const exhibits = [
     {
-        title: 'Metric A',
+        title: 'IPv4 Address',
         color: 'aquamarine',
         fontSize: '18px',
         borderWidth: '2px',
+        requestURL: 'https://api.ipify.org?format=json'
     },
     {
-        title: 'Metric B',
-        color: 'mediumslateblue',
-        fontSize: '18px',
-        borderWidth: '2px',
-    },
-    {
-        title: 'Metric C',
-        color: 'darksalmon',
-        fontSize: '18px',
-        borderWidth: '2px',
-    },
-    {
-        title: 'Metric D',
+        title: 'IPv6 Address',
         color: 'dodgerblue',
         fontSize: '18px',
         borderWidth: '2px',
+        requestURL: 'https://api64.ipify.org?format=json'
     }
 ]

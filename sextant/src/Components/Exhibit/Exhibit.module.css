@@ -1,27 +1,12 @@
-.exhibit-container {
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-    position: absolute;
-    top: 65px;
-    z-index: -1;
-    padding: 10px 15px;
-}
-
-.exhibit-container h2 {
-    color: #000;
-    font-family: var(--bold);
-    letter-spacing: -0.6px;
-
-}
-
-.metrics-container {
-    height: auto;
-    width: 100%;
-    flex-flow: wrap;
+.exhibit-card {
+    height: 150px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: 10px;
+    flex-direction: column;
+    font-family: var(--regular);
+    letter-spacing: -0.4px;
+    border-radius: 15px;
+    margin: 15px;
 }
