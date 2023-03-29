@@ -1,0 +1,11 @@
+.metric-card {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--regular);
+    letter-spacing: -0.4px;
+    border-radius: 15px;
+    margin: 15px;
+}
