@@ -1,0 +1,9 @@
+.latency {
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(220, 220, 220);
+    font-family: var(--bold);
+    border-radius: 10px;
+    text-align: center;
+}
